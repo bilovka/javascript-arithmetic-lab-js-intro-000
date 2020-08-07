@@ -23,7 +23,7 @@ function decrement(n){
   return n-1
 }
 function makeInt(n){
-  parseInt(n, 10)
-  parseInt('0x2328',10)
-  parseInt('zzz',10)
+  return parseInt(n, 10)
+  return parseInt('0x2328',10)
+  return parseInt('zzz',10)
 }
