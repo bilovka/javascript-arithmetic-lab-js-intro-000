@@ -27,3 +27,7 @@ function makeInt(n){
   return parseInt('0x2328',10)
   return parseInt('zzz',10)
 }
+preserveDecimal(n){
+  return parseFloat(n)
+  return parseFloat('zzz')
+}
